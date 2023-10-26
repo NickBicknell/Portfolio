@@ -1,7 +1,8 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  padding: 0;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -13,6 +14,28 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav a {
+  color: inherit;
+} 
 
 a {
   font-weight: 500;
@@ -66,4 +89,39 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+:root {
+  background-color: #A5D7E8;
+}
+
+* {
+  font-family: monospace;
+}
+
+.personal-photo {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #0B2447
+}
+
+main {
+  background-color: #A5D7E8;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 4rem;
+}
+
+.d-blue {
+  background-color: #0B2447;
+}
+
+.navbar a:hover {
+  background-color: #A5D7E8;
 }
