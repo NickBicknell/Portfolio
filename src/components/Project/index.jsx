@@ -15,7 +15,7 @@ function Project({ project }) {
         <a href={repo}>
           <img
             className="project-icon mx-2 my-2"
-            src="../../src/assets/img/github-icon.png"
+            src="./img/github-icon.png"
           />
         </a>
         <p className="project-text">{desc}</p>

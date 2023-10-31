@@ -130,6 +130,10 @@ main {
     transition: 0.3s ease-in-out;
 }
 
+.about-p {
+  font-size: 32px;
+}
+
 .container .card:hover .content {
     visibility: visible;
     opacity: 1;
@@ -151,4 +155,28 @@ main {
 
 .footer {
   color: #0B2447;
+}
+
+@media (max-width: 768px) {
+  .about-me .display-4 {
+    font-size: 40px;
+  }
+
+ .about-p {
+  font-size: 20px;
+ }
+
+  .personal-photo {
+    width: 150px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 570px) {
+  .seperator {
+    display: none;
+  }
 }
