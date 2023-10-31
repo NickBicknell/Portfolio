@@ -142,7 +142,7 @@ main {
 .container .card:hover .content {
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
+    margin-top: -25px;
     transition-delay: 0.3s;
 }
 
