@@ -134,6 +134,11 @@ main {
   font-size: 32px;
 }
 
+.nav-item {
+  font-size: 32px;
+  color: white;
+}
+
 .container .card:hover .content {
     visibility: visible;
     opacity: 1;
@@ -166,17 +171,14 @@ main {
   font-size: 20px;
  }
 
+ .nav-item {
+  font-size: 20px;
+ }
   .personal-photo {
     width: 150px;
   }
 
   .footer {
     font-size: 14px;
-  }
-}
-
-@media (max-width: 570px) {
-  .seperator {
-    display: none;
   }
 }
