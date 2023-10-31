@@ -1,13 +1,13 @@
 import React from 'react';
-
+import 'animate.css'; 
 
 
 function Nav() {
 
   return (
-    <nav className="navbar d-blue border-bottom border-body" data-bs-theme="dark">
+    <nav className="navbar d-blue pb-5" data-bs-theme="dark">
       <div className="container-fluid">
-          <h1 className='text-white display-2'>Nicholas Bicknell</h1>
+          <h1 className='text-white display-2 ms-3'>Nicholas Bicknell</h1>
         <ul className="d-flex flex-row align-items-center list-unstyled">
         <li className="nav-item">
           <a className="nav-item btn mx-4 fs-2" href='/'>About Me</a>
@@ -22,7 +22,7 @@ function Nav() {
         </li>
         <li className="nav-item text-white fs-1">|</li>
         <li className="nav-item">
-          <a className="nav-item btn mx-4 fs-2" href='/resume'>Resume</a>
+          <a className="nav-item btn mx-4 fs-2" href='../../src/assets/resume.pdf'>Resume</a>
         </li>
       </ul>
     </div>

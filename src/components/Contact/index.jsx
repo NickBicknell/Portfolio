@@ -1,15 +1,27 @@
 function Contact() {
     return (
-      <p>
-        I'm an aspiring Developer in Dallas, Texas. I took an interest in coding,
-        instantly clicking with it. It was then I discovered Web Development is
-        the career I've been searching for. I enjoy taking complex problems and
-        finding solutions with beautiful and intuitive designs. I have taught
-        myself how to learn staying up to date with current technologies and
-        continue to improve my skills everyday. When I'm not wrapped up in my code
-        I love cooking, gaming, and staying active in the gym. THIS IS A CONTACT PAGE!!!
-      </p>
-    );
+      <div className="container mb-4 pb-5">
+      <div className="row justify-content-center">
+        <div className="col-3">
+        <h1 className="display-2 text-white text-decoration-underline pb-3">Contact</h1>
+        </div>
+      </div>
+      <div className="row py-4 justify-content-center">
+        <div className="contact-card col-6">
+        <div className="card-body mb-3">
+  <label className="form-label contact-form">Email address</label>
+  <input type="email" className="form-control" id="contact-email" />
+  <label className="form-label pt-3 contact-form">Subject</label>
+  <input type="text" className="form-control" id="contact-subject" />
+</div>
+<div className="mb-3">
+  <label className="form-label contact-form">Message</label>
+  <textarea className="form-control" id="contact-message" rows="5"></textarea>
+</div>
+        </div>
+      </div>
+      </div>
+    )
   }
   
   export default Contact
