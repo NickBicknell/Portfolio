@@ -4,7 +4,7 @@ function Project({ project }) {
   const { name, repo, link, desc, img } = project;
 
   return (
-    <div className="card d-flex position-relative flex-column">
+    <div className="card d-flex position-relative flex-column animate__animated animate__bounceInDown">
       <a href={link}>
       <div className="imgContainer">
         <img src={img} />
