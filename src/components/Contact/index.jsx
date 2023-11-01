@@ -10,12 +10,28 @@ function Contact() {
       .sendForm("service_gd267mb", "template_4iik70o", e.target, "KJh3qHLSfN9B91nQU")
       .then(
         (result) => {
-          window.location.reload();
+          document
+            .querySelector('#contact-name')
+            .value = ''
+          document
+            .querySelector('#contact-email')
+            .value = ''
+          document
+            .querySelector('#contact-subject')
+            .value = ''
+          document
+            .querySelector('#contact-message')
+            .value = ''
         },
         (error) => {
           console.log(error.text);
         }
-      );
+      )
+      .then(
+        document
+          .querySelector('#response-message')
+          .classList.remove('d-none')
+      )
   }
 
   return (
@@ -31,22 +47,24 @@ function Contact() {
         <form className="contact-card col-11 col-lg-6" onSubmit={sendEmail}>
           <div className="card-body mb-3">
             <label className="form-label contact-form">Name</label>
-            <input type="text" className="form-control" name="from_name" />
+            <input type="text" className="form-control" id="contact-name" name="from_name" />
             <label className="form-label contact-form">Email address</label>
-            <input type="email" className="form-control" name="from_email" />
+            <input type="email" className="form-control" id="contact-email" name="from_email" />
             <label className="form-label pt-3 contact-form">Subject</label>
-            <input type="text" className="form-control" name="subject" />
+            <input type="text" className="form-control" id="contact-subject" name="subject" />
           </div>
           <div className="mb-3">
             <label className="form-label contact-form">Message</label>
             <textarea
               className="form-control"
+              id="contact-message"
               name="message"
               rows="5"
             ></textarea>
             <button className="btn btn-primary mt-3 float-end" type="submit" value="Send">Submit</button>
           </div>
         </form>
+        <p className="d-none" id="response-message">Message Sent. Thanks for reaching out!</p>
       </div>
     </div>
   );
