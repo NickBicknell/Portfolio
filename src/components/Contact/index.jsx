@@ -48,7 +48,7 @@ function Contact() {
           <div className="card-body mb-3">
             <label className="form-label contact-form">Name</label>
             <input type="text" className="form-control" id="contact-name" name="from_name" />
-            <label className="form-label contact-form">Email address</label>
+            <label className="form-label contact-form pt-3">Email address</label>
             <input type="email" className="form-control" id="contact-email" name="from_email" />
             <label className="form-label pt-3 contact-form">Subject</label>
             <input type="text" className="form-control" id="contact-subject" name="subject" />
