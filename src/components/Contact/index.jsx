@@ -1,3 +1,5 @@
+
+
 function Contact() {
     return (
       <div className="container mb-4 pb-5">
@@ -17,6 +19,7 @@ function Contact() {
 <div className="mb-3">
   <label className="form-label contact-form">Message</label>
   <textarea className="form-control" id="contact-message" rows="5"></textarea>
+  <button className="btn btn-primary mt-3 float-end">Submit</button>
 </div>
         </div>
       </div>
