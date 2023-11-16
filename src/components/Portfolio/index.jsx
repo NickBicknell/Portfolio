@@ -4,6 +4,13 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "Just Jackets",
+      desc: "E-commerce, React, MongoDB, GraphQl",
+      link: "https://still-sierra-76038-8e521afb268f.herokuapp.com/",
+      repo: "https://github.com/NickBicknell/Just-Jackets",
+      img: "./projects/just-jackets.png"
+    },
+    {
       name: "Budget My Vacay",
       desc: "Javascript, Express, Node, MySQL",
       link: "https://fast-ridge-13851-d2c78560f8b5.herokuapp.com/",
