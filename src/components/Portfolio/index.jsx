@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Project from "../Project";
+// import Carousel from 'react-bootstrap/Carousel';
 
 function Portfolio() {
   const [projects] = useState([
@@ -106,7 +107,7 @@ function Portfolio() {
   return (
     <div>
       <div className="row justify-content-between">
-        <h1 className="display-2 text-white text-center">Portfolio</h1>
+        <h1 className="display-2 text-white text-center mb-5">Portfolio</h1>
       </div>
       <div className="container d-flex align-items-center justify-content-center position-relative flex-wrap">
         {projects.map((project, idx) => (
@@ -114,6 +115,15 @@ function Portfolio() {
         ))}
       </div>
     </div>
+  //    <Carousel>
+  //    <Carousel.Item>
+  //      <ExampleCarouselImage text="First slide" />
+  //      <Carousel.Caption>
+  //        <h3>First slide label</h3>
+  //        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+  //      </Carousel.Caption>
+  //    </Carousel.Item>
+  //  </Carousel>
   );
 }
 

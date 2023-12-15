@@ -22,7 +22,7 @@
 
 main {
   /* background-image: linear-gradient(#0B2447, #A5D7E8); */
-  min-height: calc(100vh - 34px);
+  min-height: calc(86.6vh);
 }
 
 .footer-pin {
