@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="row mx-3 py-5 about">
+    <div className="row mx-3 pt-5 about">
       <div className="col-12 col-lg-4 text-center animate__animated animate__fadeInLeftBig">
         <img
           className="personal-photo"
