@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="footer row pt-5">
+    <div className="footer footer-pin row pt-5">
       <div className="col-4 mx-auto text-center pt-4">
         <p>Designed and Developed by Nicholas Bicknell</p>
       </div>

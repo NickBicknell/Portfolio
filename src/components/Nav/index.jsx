@@ -3,7 +3,7 @@ import "animate.css";
 
 function Nav() {
   return (
-    <nav className="navbar d-blue pb-5 navbar-expand-lg" data-bs-theme="dark">
+    <nav className="navbar d-blue pb-1 navbar-expand-lg" data-bs-theme="dark">
       <div className="container-fluid">
         <h1 className="text-white ms-3 display-2">Nicholas Bicknell</h1>
         <button
